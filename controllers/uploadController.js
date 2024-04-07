@@ -6,7 +6,7 @@ exports.uploadImage = async (req, res) => {
 
     // Upload file to S3
     const params = {
-        Bucket: 'rp-images-234',
+        Bucket: 'image-s3-83473',
         Key: file.originalname,
         Body: file.buffer
     };
